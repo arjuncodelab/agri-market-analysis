@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS market(
 CREATE TABLE IF NOT EXISTS commodity(
   "id" SERIAL,
   "commodity" VARCHAR,
-  "commodity_group" VARCHAR(5), -- only to max(5) characters like veg, frts
+  "commodity_group" VARCHAR(15), -- only to max(5) characters like veg, frts
   PRIMARY KEY (id)
 );
 
