@@ -1,0 +1,4 @@
+*.csv
+*.db
+*.sqlite
+!data/sample_data.csv
