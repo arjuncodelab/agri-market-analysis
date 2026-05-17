@@ -38,3 +38,10 @@ data to identify pricing anomalies and supply-chain "tipping points."
 - **Data Integrity & Edge-Case Auditing:**
   Successfully isolated a rare logical anomaly where min_price in *Karnataka* across 3 specific locations: *Gundlupet APMC(**Chamarajanagar**),Hubil (Amaragol) APMC (**Dharwad**), and Nanjangud APMC (**Mysore**)*. But occurring rarely (only 1-2 times a year), capturing these precise anomalies demonstrartes an auditor's mindset, showcasing the pipeline's capability to flag human data-entry errors to local APMC yards before they corrupt downstream exeutive reporting. 
 
+### Tech Stack Used
+- **Database & Querying:**
+  PostgresSQL, pgAdmin
+- **Analytics:**
+  SQL (Window Functions, Aggregations, CTEs)
+- **Visualization:**
+  Dashboard Soon [Power BI]
